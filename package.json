@@ -1,0 +1,24 @@
+{
+  "name": "yourcfo",
+  "version": "1.0.0",
+  "description": "Yourcfo backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matuisti/yourcfo.git"
+  },
+  "author": "Matias Suihkonen",
+  "license": "ISC",
+  "homepage": "https://github.com/matuisti/yourcfo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^4.2.0",
+    "csvjson": "^5.1.0",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.1.1-alpha.1"
+  }
+}
